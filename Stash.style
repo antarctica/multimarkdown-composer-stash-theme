@@ -1,5 +1,6 @@
 // Stash style for MultiMarkdown Composer
 // See http://support.multimarkdown.com/kb/style-sheets/how-do-i-create-a-custom-style-sheet
+// Editor styles based on 'Mou Night' theme from Mou.app
 
 {
     //
@@ -26,12 +27,12 @@
     justifyText = 1;                // Should justification be turned on?
 
     // Colours
-    foregroundColor = 000;          // Color to be used for the text
-    backgroundColor = eee;          // Color to be used for the background
-    caretColor = 000;               // Color to be used for the cursor
-    selectionColor = 3000;          // Color to be used when selecting text
-    markupForegroundColor = 8000;   // Color to be used for markup text foreground
-    markupBackgroundColor = fff;    // Color to be used for markup text background
+    foregroundColor = eeeeee;          // Color to be used for the text
+    backgroundColor = 282a36;          // Color to be used for the background
+    caretColor = ff3319;               // Color to be used for the cursor
+    selectionColor = ffffff;          // Color to be used when selecting text
+    markupForegroundColor = eeeeee;   // Color to be used for markup text foreground
+    markupBackgroundColor = 282a36;    // Color to be used for markup text background
     
     // MarkDown elements
     // ----------------------------
@@ -52,15 +53,13 @@
 
     // Headings
     heading = {                     // (applies to all headings)
-        foregroundColor = 555;
-        backgroundColor = 10000000;
+        //foregroundColor = 555;
+        //backgroundColor = 10000000;
         bold = 1;                   // Turn on bold if the font supports it
     };
     heading1 = {                    // Level 1 headings only
         fontSize = 17;
         fontName = Didot;
-        foregroundColor = 555;
-        backgroundColor = 10000000;
         //markupForegroundColor = 0C0;// custom colors for the markup if desired
         //markupBackgroundColor = C00;
         bold = 1;
@@ -68,8 +67,6 @@
     heading2 = {
         fontSize = 15;
         fontName = Didot;
-        foregroundColor = 555;
-        backgroundColor = 10000000;
         bold = 1;
     };
 
@@ -100,13 +97,13 @@
         mono = 1;                   // Use the mono font specified earlier
     };
     codeBlock = {                   // Verbatim or Code blocks
-        backgroundColor = 08000000;
+        //backgroundColor = 08000000;
         mono = 1;
     };
 
     // Others
     URL = {                         // Formatting that is applied to "clickable" links
-        foregroundColor = 555;
+        //foregroundColor = 555;
         underline = 1;              // 1 = single underline
                                     // 0 = no underline
                                     // 2 = thick underline
@@ -114,7 +111,7 @@
                                     // 9 = double underline
     };
     comment = {                     // HTML comments (e.g. <!-- This is a comment --> )
-        foregroundColor = 8000;
+        //foregroundColor = 8000;
     };
     
     //

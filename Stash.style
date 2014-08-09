@@ -18,8 +18,9 @@
     horizontalPadding = 20;         // Left and Right padding to use when Auto Zoom is off
 
     // Typography
+    // (To set the main font used in the editor see the default style in the Markdown elements section)
+    monoFontName = "Menlo";         // Font to be used for monospaced text (use quotes for multiword names, e.g. "Courier New")
     monoFontSize = 12;              // Font size to be used for monospaced text
-    monoFontName = Courier;         // Font to be used for monospaced text (use quotes for multiword names, e.g. "Courier New")
     lineLength = 75;                // Maximum line length (in characters)
     lineHeight = 1.7;               // Line spacing ( 1.7 = 170% )
     justifyText = 1;                // Should justification be turned on?
@@ -38,9 +39,9 @@
     // Default style
     // (applied to all text, unless superseded by a more specific setting)
     default = {                     
-        fontName = Didot;           // Font to be used for this feature (e.g. default)
-        fontSize = 13.5;            // Font size to be applied
-        kerning = 0.3;              // Kerning to be applied (look up kerning on internet if you're not sure what this is)
+        fontName = "Menlo";           // Font to be used for this feature (e.g. default)
+        fontSize = 12;                // Font size to be applied
+        kerning = 0.3;                // Kerning to be applied (look up kerning on internet if you're not sure what this is)
     };
 
     // (applied to the metadata at the top of the document)

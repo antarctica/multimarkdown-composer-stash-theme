@@ -104,9 +104,10 @@
 
     // Structures
     list = {
+        markupForegroundColor = ffff00;
         leftIndent = 30;            // Left margin indenting (per list level)
         rightIndent = 30;           // Right margin indenting (total)
-    };                              // Default for all is 30
+    };                              
     blockquote = {
         leftIndent = 30;            // Left margin indenting (per blockquote level)
         rightIndent = 30;           // Right margin indenting (total)

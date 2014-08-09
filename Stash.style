@@ -127,8 +127,8 @@
     };
 
     // Others
-    URL = {                         // Formatting that is applied to "clickable" links
-        //foregroundColor = 555;
+    URL = {
+        foregroundColor = 59acf3;
         underline = 1;              // 1 = single underline
                                     // 0 = no underline
                                     // 2 = thick underline
@@ -136,7 +136,8 @@
                                     // 9 = double underline
     };
     comment = {                     // HTML comments (e.g. <!-- This is a comment --> )
-        //foregroundColor = 8000;
+        foregroundColor = 93a1a1;
+        markupForegroundColor = 93a1a1;
     };
     
     //

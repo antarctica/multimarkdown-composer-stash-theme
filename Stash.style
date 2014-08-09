@@ -52,20 +52,38 @@
     };
 
     // Headings
-    heading = {                     // (applies to all headings)
-        //foregroundColor = 555;
-        //backgroundColor = 10000000;
-        bold = 1;                   // Turn on bold if the font supports it
+    heading = {                     
+        bold = 1;  // This is a binary flag - not a font weight
     };
-    heading1 = {                    // Level 1 headings only
-        fontSize = 17;
-        //markupForegroundColor = 0C0;// custom colors for the markup if desired
-        //markupBackgroundColor = C00;
-        bold = 1;
+    heading1 = {
+        fontSize = 19;
+        foregroundColor = 8d7cd2;
+        markupForegroundColor = 8d7cd2;
     };
     heading2 = {
+        fontSize = 18;
+        foregroundColor = 8d7cd2;
+        markupForegroundColor = 8d7cd2;
+    };
+    heading3 = {
+        fontSize = 17;
+        foregroundColor = 8d7cd2;
+        markupForegroundColor = 8d7cd2;
+    };
+    heading4 = {
+        fontSize = 16;
+        foregroundColor = 8d7cd2;
+        markupForegroundColor = 8d7cd2;
+    };
+    heading5 = {
         fontSize = 15;
-        bold = 1;
+        foregroundColor = 8d7cd2;
+        markupForegroundColor = 8d7cd2;
+    };
+    heading6 = {
+        fontSize = 14;
+        foregroundColor = 8d7cd2;
+        markupForegroundColor = 8d7cd2;
     };
 
     // Formatting

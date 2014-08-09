@@ -87,13 +87,17 @@
     };
 
     // Formatting
-    bold = {                        // We want bold text to be displayed in bold
+    bold = {
         bold = 1;
+        foregroundColor = 00b2ce;
+        markupForegroundColor = 00b2ce;
     };
-    italic = {                      // We want italicized text to be displayed in italics
+    italic = {
         italic = 1;
+        foregroundColor = db8d50;
+        markupForegroundColor = db8d50;
     };
-    boldAndItalic =     {           // Any guess what we want here?
+    boldAndItalic = {
         bold = 1;
         italic = 1;
     };

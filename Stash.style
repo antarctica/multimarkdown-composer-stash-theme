@@ -23,7 +23,7 @@
     monoFontName = "Menlo";         // Font to be used for monospaced text (use quotes for multiword names, e.g. "Courier New")
     monoFontSize = 12;              // Font size to be used for monospaced text
     lineLength = 75;                // Maximum line length (in characters)
-    lineHeight = 1.7;               // Line spacing ( 1.7 = 170% )
+    lineHeight = 1.3;               // Line spacing ( 1.7 = 170% )
     justifyText = 1;                // Should justification be turned on?
 
     // Colours

@@ -59,14 +59,12 @@
     };
     heading1 = {                    // Level 1 headings only
         fontSize = 17;
-        fontName = Didot;
         //markupForegroundColor = 0C0;// custom colors for the markup if desired
         //markupBackgroundColor = C00;
         bold = 1;
     };
     heading2 = {
         fontSize = 15;
-        fontName = Didot;
         bold = 1;
     };
 

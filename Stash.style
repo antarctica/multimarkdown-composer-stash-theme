@@ -1,6 +1,8 @@
 // Stash style for MultiMarkdown Composer
-// See http://support.multimarkdown.com/kb/style-sheets/how-do-i-create-a-custom-style-sheet
 // Editor styles based on 'Mou Night' theme from Mou.app
+
+// (See http://support.multimarkdown.com/kb/style-sheets/how-do-i-create-a-custom-style-sheet for reference)
+// ('LESS' sees to be the best language to view this file as for syntax highlighting)
 
 {
     //
@@ -28,13 +30,13 @@
 
     // Colours
     foregroundColor = eeeeee;          // Color to be used for the text
+    markupForegroundColor = eeeeee;    // Generally the same as ForegroundColor
     backgroundColor = 282a36;          // Color to be used for the background
+    markupBackgroundColor = 282a36;    // Generally the same as BackgroundColor
     caretColor = ff3319;               // Color to be used for the cursor
-    selectionColor = ffffff;          // Color to be used when selecting text
-    markupForegroundColor = eeeeee;   // Color to be used for markup text foreground
-    markupBackgroundColor = 282a36;    // Color to be used for markup text background
+    selectionColor = ffffff;           // Color to be used when selecting text
     
-    // MarkDown elements
+    // Markdown elements
     // ----------------------------
 
     // Default style

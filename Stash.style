@@ -111,6 +111,8 @@
     blockquote = {
         leftIndent = 30;            // Left margin indenting (per blockquote level)
         rightIndent = 30;           // Right margin indenting (total)
+        foregroundColor = ff0000;
+        markupForegroundColor = ff0000;
     };
 
     // Code

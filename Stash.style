@@ -1,5 +1,8 @@
 // Stash style for MultiMarkdown Composer
+// Version 1.0
+
 // Editor styles based on 'Mou Night' theme from Mou.app
+// Preview styles based on Stash/Bitbucket markdown rendering
 
 // (See http://support.multimarkdown.com/kb/style-sheets/how-do-i-create-a-custom-style-sheet for reference)
 // ('LESS' sees to be the best language to view this file as for syntax highlighting)

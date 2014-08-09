@@ -117,11 +117,13 @@
 
     // Code
     codeSpan =     {                // Spans of code, e.g. `this is code`
+        foregroundColor = cf009a;
+        markupForegroundColor = cf009a;
         mono = 1;                   // Use the mono font specified earlier
     };
     codeBlock = {                   // Verbatim or Code blocks
-        //backgroundColor = 08000000;
-        mono = 1;
+        foregroundColor = cf009a;
+        mono = 1;                   // Use the mono font specified earlier
     };
 
     // Others

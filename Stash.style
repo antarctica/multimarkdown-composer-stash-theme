@@ -10,8 +10,8 @@
     // ----------------------------
 
     // Editor behaviour
-    focusMode = 1;                  // Should Focus Mode be turned on when this theme is enabled?
-    typewriterMode = 1;             // Should Typewriter Mode be turned on when this theme is enabled?
+    focusMode = 0;                  // Should Focus Mode be turned on when this theme is enabled?
+    typewriterMode = 0;             // Should Typewriter Mode be turned on when this theme is enabled?
 
     // Layout
     autoZoomHorizontalPadding = 50; // Left and Right padding to use when Auto Zoom is on

@@ -2,37 +2,55 @@
 // See http://support.multimarkdown.com/kb/style-sheets/how-do-i-create-a-custom-style-sheet
 
 {
+    //
+    // Styles for editor (i.e. Left side)
+    // ==================================================
+
+    // Editor environment
+    // ----------------------------
+
+    // Editor behaviour
+    focusMode = 1;                  // Should Focus Mode be turned on when this theme is enabled?
+    typewriterMode = 1;             // Should Typewriter Mode be turned on when this theme is enabled?
+
+    // Layout
     autoZoomHorizontalPadding = 50; // Left and Right padding to use when Auto Zoom is on
+    horizontalPadding = 20;         // Left and Right padding to use when Auto Zoom is off
+
+    // Typography
+    monoFontSize = 12;              // Font size to be used for monospaced text
+    monoFontName = Courier;         // Font to be used for monospaced text (use quotes for multiword names, e.g. "Courier New")
+    lineLength = 75;                // Maximum line length (in characters)
+    lineHeight = 1.7;               // Line spacing ( 1.7 = 170% )
+    justifyText = 1;                // Should justification be turned on?
+
+    // Colours
+    foregroundColor = 000;          // Color to be used for the text
     backgroundColor = eee;          // Color to be used for the background
     caretColor = 000;               // Color to be used for the cursor
     selectionColor = 3000;          // Color to be used when selecting text
-    focusMode = 1;                  // Should Focus Mode be turned on when this theme is enabled?
-    typewriterMode = 1;             // Should Typewriter Mode be turned on when this theme is enabled?
-    foregroundColor = 000;          // Color to be used for the text
     markupForegroundColor = 8000;   // Color to be used for markup text foreground
-                                    // Can also set a background color
+    markupBackgroundColor = fff;    // Color to be used for markup text background
+    
+    // MarkDown elements
+    // ----------------------------
 
-
-    // CSS is applied to the preview pane to allow you to match colors, or apply any other desired formatting
-    css = "body {background:#eee;color:#000;font-family: Didot; font-size:14px; line-height:170%; text-align: justify;}";
-
-
-    horizontalPadding = 20;         // Left and Right padding to use when Auto Zoom is off
-    justifyText = 1;                // Should justification be turned on?
-    lineLength = 75;                // Maximum line length (in characters)
-    lineHeight = 1.7;               // Line spacing ( 1.7 = 170% )
-    monoFontSize = 12;              // Font size to be used for monospaced text
-    monoFontName = Courier;         // Font to be used for monospaced text (use quotes for multiword names, e.g. "Courier New")
-    default = {                     // Default is applied to all text, unless superseded by a more specific setting
+    // Default style
+    // (applied to all text, unless superseded by a more specific setting)
+    default = {                     
         fontName = Didot;           // Font to be used for this feature (e.g. default)
         fontSize = 13.5;            // Font size to be applied
         kerning = 0.3;              // Kerning to be applied (look up kerning on internet if you're not sure what this is)
     };
-    metadata = {                    // Formatting to be applied to the metadata at the top of the document
+
+    // (applied to the metadata at the top of the document)
+    metadata = {                
         foregroundColor = 7000;
         kerning = 0.2;
     };
-    heading = {                     // General heading formatting
+
+    // Headings
+    heading = {                     // (applies to all headings)
         foregroundColor = 555;
         backgroundColor = 10000000;
         bold = 1;                   // Turn on bold if the font supports it
@@ -53,21 +71,8 @@
         backgroundColor = 10000000;
         bold = 1;
     };
-    codeSpan =     {                // Spans of code, e.g. `this is code`
-        mono = 1;                   // Use the mono font specified earlier
-    };
-    codeBlock = {                   // Verbatim or Code blocks
-        backgroundColor = 08000000;
-        mono = 1;
-    };
-    URL = {                         // Formatting that is applied to "clickable" links
-        foregroundColor = 555;
-        underline = 1;              // 1 = single underline
-                                    // 0 = no underline
-                                    // 2 = thick underline
-                                    // 4 = very thick underline
-                                    // 9 = double underline
-    };
+
+    // Formatting
     bold = {                        // We want bold text to be displayed in bold
         bold = 1;
     };
@@ -78,9 +83,8 @@
         bold = 1;
         italic = 1;
     };
-    comment = {                     // HTML comments (e.g. <!-- This is a comment --> )
-        foregroundColor = 8000;
-    };
+
+    // Structures
     list = {
         leftIndent = 30;            // Left margin indenting (per list level)
         rightIndent = 30;           // Right margin indenting (total)
@@ -89,4 +93,42 @@
         leftIndent = 30;            // Left margin indenting (per blockquote level)
         rightIndent = 30;           // Right margin indenting (total)
     };
+
+    // Code
+    codeSpan =     {                // Spans of code, e.g. `this is code`
+        mono = 1;                   // Use the mono font specified earlier
+    };
+    codeBlock = {                   // Verbatim or Code blocks
+        backgroundColor = 08000000;
+        mono = 1;
+    };
+
+    // Others
+    URL = {                         // Formatting that is applied to "clickable" links
+        foregroundColor = 555;
+        underline = 1;              // 1 = single underline
+                                    // 0 = no underline
+                                    // 2 = thick underline
+                                    // 4 = very thick underline
+                                    // 9 = double underline
+    };
+    comment = {                     // HTML comments (e.g. <!-- This is a comment --> )
+        foregroundColor = 8000;
+    };
+    
+    //
+    // Styles for preview (i.e. Right side)
+    // --------------------------------------------------
+
+    // CSS is applied to the preview pane to allow you to match colors, or apply any other desired formatting
+    css = "
+        body {
+            background:#eee;
+            color:#000;
+            font-family: Didot;
+            font-size:14px;
+            line-height:170%;
+            text-align: justify;
+        }
+    ";
 }

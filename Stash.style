@@ -5,7 +5,7 @@
 // Preview styles based on Stash/Bitbucket markdown rendering
 
 // (See http://support.multimarkdown.com/kb/style-sheets/how-do-i-create-a-custom-style-sheet for reference)
-// ('LESS' sees to be the best language to view this file as for syntax highlighting)
+// ('LESS' seems to be the best language to view this file as for syntax highlighting)
 
 {
     //
@@ -38,26 +38,26 @@
     markupBackgroundColor = 282a36;    // Generally the same as BackgroundColor
     caretColor = ff3319;               // Color to be used for the cursor
     selectionColor = ffffff;           // Color to be used when selecting text
-    
+
     // Markdown elements
     // ----------------------------
 
     // Default style
     // (applied to all text, unless superseded by a more specific setting)
-    default = {                     
+    default = {
         fontName = "Menlo";           // Font to be used for this feature (e.g. default)
         fontSize = 12;                // Font size to be applied
         kerning = 0.3;                // Kerning to be applied (look up kerning on internet if you're not sure what this is)
     };
 
     // (applied to the metadata at the top of the document)
-    metadata = {                
+    metadata = {
         foregroundColor = 7000;
         kerning = 0.2;
     };
 
     // Headings
-    heading = {                     
+    heading = {
         bold = 1;  // This is a binary flag - not a font weight
     };
     heading1 = {
@@ -112,7 +112,7 @@
         markupForegroundColor = ffff00;
         leftIndent = 30;            // Left margin indenting (per list level)
         rightIndent = 30;           // Right margin indenting (total)
-    };                              
+    };
     blockquote = {
         leftIndent = 30;            // Left margin indenting (per blockquote level)
         rightIndent = 30;           // Right margin indenting (total)
@@ -144,7 +144,7 @@
         foregroundColor = 93a1a1;
         markupForegroundColor = 93a1a1;
     };
-    
+
     //
     // Styles for preview (i.e. Right side)
     // --------------------------------------------------
@@ -155,7 +155,7 @@
             margin: 0 20px 0;
             border: 1px solid #ccc;
             padding: 20px;
-            
+
             font-family: Arial,sans-serif;
             font-size: 14px;
             line-height: 1.42857142857143;
@@ -207,7 +207,7 @@
         h1+h2,h2+h3,h3+h4,h4+h5,h5+h6{
             margin-top:10px;
         }
-        
+
         a {
             color: #3b73af;
         }
